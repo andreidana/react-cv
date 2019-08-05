@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import ResumeContainer from './ResumeContainer/ResumeContainer';
+import ResumeContainer from './Containers/ResumeContainer/ResumeContainer';
 
 function App() {
   return (
