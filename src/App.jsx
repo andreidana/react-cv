@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.scss';
 
 import ResumeContainer from './Containers/ResumeContainer/ResumeContainer';
 
+import { Background } from './App.module.scss';
+
 function App() {
   return (
-    <ResumeContainer />
+    <div className={Background}>
+      <ResumeContainer/>
+    </div>
   );
 }
 

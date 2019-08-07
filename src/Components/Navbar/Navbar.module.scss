@@ -1,0 +1,20 @@
+.MenuWrapper {
+  width: 100%;
+  background-color: #fff;
+
+  .MenuContent {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    ul {
+      margin: 0;
+      display: inline-block;
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 120px;
+        padding: 10px;
+      }
+    }
+  }
+}
