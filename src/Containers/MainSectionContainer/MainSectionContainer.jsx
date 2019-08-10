@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProfessionoalDetailsContainer from '../ProfessionalDetailsContainer/ProfessionoalDetailsContainer';
+import ProfessionalDetailsContainer from '../ProfessionalDetailsContainer/ProfessionalDetailsContainer';
 import DetailsContainer from '../DetailsContainer/DetailsContainer';
 import Title from '../../Components/Title/Title';
 
@@ -13,13 +13,13 @@ const MainSectionContainer = () => {
   return (
     <div className = {createMarinSectionStyle()}>
       <div className = 'row'>
-        <div className = 'col-md-12'>
+        <div className = {createTitleStyle()}>
           <Title/>
         </div>
-        <div className = 'col-md-3'>
-          <ProfessionoalDetailsContainer/>
+        <div className = 'col-md-4'>
+          <ProfessionalDetailsContainer/>
         </div>
-        <div className = 'col-md-9'>
+        <div className = 'col-md-8'>
           <DetailsContainer/>
         </div>
       </div>

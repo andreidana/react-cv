@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { DetailsContainerStyle } from './DetailsContainer.module.scss';
+
 const DetailsContainer = () => {
   return (
-    <div>
+    <div className = { DetailsContainerStyle }>
       Here we will have the details container
     </div>
   );
