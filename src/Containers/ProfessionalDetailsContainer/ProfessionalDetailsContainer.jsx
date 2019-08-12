@@ -4,6 +4,7 @@ import { ProfessionalDetailContainerStyle } from './ProfessionalDetailsContainer
 import StringTitle from '../../Components/StringTitle/StringTitle';
 import ProfilePicture from '../../Components/ProfilePicture/ProfilePicture';
 import PersonalData from '../../Components/PersonalData/PersonalData';
+import AttachmentsContainer from '../AttachmentsContainer/AttachmentsContainer';
 
 const ProfessionalDetailsContainer = () => {
   const professionalDetailsTitle = 'PROFESSIONAL DETAILS';
@@ -15,6 +16,7 @@ const ProfessionalDetailsContainer = () => {
       <ProfilePicture />
       <PersonalData />
       <StringTitle title = { attachmentsTitle } />
+      <AttachmentsContainer />
     </div>
   );
 };
