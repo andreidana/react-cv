@@ -3,12 +3,8 @@ import React from 'react';
 import { ProfessionalDetailsTitleStyle } from './ProfessionalDetailsTitle.module.scss';
 import Heading from '../Heading/Heading';
 
-const ProfessionalDetailsTitle = () => {
-  const title = 'PROFESSIONAL DETAILS';
-
-  return (
-    <Heading style = { ProfessionalDetailsTitleStyle } text = { title }/>
-  );
-};
+const ProfessionalDetailsTitle = (props) => (
+    <Heading style = { ProfessionalDetailsTitleStyle } text = { props.title }/>
+  )
 
 export default ProfessionalDetailsTitle;
