@@ -3,13 +3,6 @@ import React from 'react';
 import { TitleStyle } from './Title.module.scss';
 import Heading from '../Heading/Heading';
 
-const Title = () => {
-  const headingText = 'RESUME';
-
-  return (
-    // <h4 className = { TitleStyle }>RESUME</h4>
-    <Heading style = { TitleStyle } text = { headingText }/>
-  );
-};
+const Title = (props) => (<Heading style = { TitleStyle } text = { props.text }/>)
 
 export default Title;

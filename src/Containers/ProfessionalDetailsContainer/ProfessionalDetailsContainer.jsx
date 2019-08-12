@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ProfessionalDetailContainerStyle } from './ProfessionalDetailsContainer.module.scss';
-import ProfessionalDetailsTitle from '../../Components/ProfessionalDetailsTitle/ProfessionalDetailsTitle';
+import StringTitle from '../../Components/StringTitle/StringTitle';
 import ProfilePicture from '../../Components/ProfilePicture/ProfilePicture';
 import PersonalData from '../../Components/PersonalData/PersonalData';
 
@@ -11,10 +11,10 @@ const ProfessionalDetailsContainer = () => {
 
   return (
     <div className = { ProfessionalDetailContainerStyle }>
-      <ProfessionalDetailsTitle title = { professionalDetailsTitle } />
+      <StringTitle title = { professionalDetailsTitle } />
       <ProfilePicture />
       <PersonalData />
-      <ProfessionalDetailsTitle title = { attachmentsTitle } />
+      <StringTitle title = { attachmentsTitle } />
     </div>
   );
 };
