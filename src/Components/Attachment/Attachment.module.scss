@@ -1,0 +1,29 @@
+.li-style {
+  background: #f5f5f5;
+  border: 1px solid #e6e6e6;
+  line-height: 40px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+
+  p {
+    margin: 0px;
+    color: #346abb;
+    line-height: 40px;
+    font-weight: bold;
+
+    img {
+      float: left;
+      margin-right: 10px;
+      line-height: 40px;
+      margin-top: 12px;
+    }
+
+    a {
+      margin: 0px;
+      color: #346abb;
+      font-weight: bold;
+      float: right;
+      margin-left: 10px;
+    }
+  }
+}
