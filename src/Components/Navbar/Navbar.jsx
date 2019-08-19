@@ -1,18 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { faUser, faBook, faLightbulb, faGraduationCap, faAddressBook } from '@fortawesome/free-solid-svg-icons';
  
-import { MenuWrapper, MenuContent } from './Navbar.module.scss';
+import { MenuWrapper } from './Navbar.module.scss';
+import NavbarItem from './NavbarItem';
 
 const Navbar = () => {
   return (
     <nav className={ MenuWrapper }>
-      <div className={ MenuContent }>
+      <div>
         <ul>
-          <li><Link to="/">About Me</Link></li>
-          <li><Link to="/professional-experience">Professional Experience</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/certifications">Certifications</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><NavLink to="/" exact><NavbarItem icon = {faUser} itemName = 'ABOUT ME'/></NavLink></li>
+          <li><NavLink to="/professional-experience"><NavbarItem icon = {faBook} itemName = 'PROFESSIONAL EXPERIENCE'/></NavLink></li>
+          <li><NavLink to="/skills"><NavbarItem icon = {faLightbulb} itemName = 'SKILLS'/></NavLink></li>
+          <li><NavLink to="/certifications"><NavbarItem icon = {faGraduationCap} itemName = 'CERTIFICATIONS'/></NavLink></li>
+          <li><NavLink to="/contact"><NavbarItem icon = {faAddressBook} itemName = 'CONTACT'/></NavLink></li>
         </ul>
       </div>
     </nav>

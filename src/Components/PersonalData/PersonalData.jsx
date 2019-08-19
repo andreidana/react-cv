@@ -15,7 +15,7 @@ const PersonalData = () => {
   return (
     <>
       <ul className = {PersonalInfo}>
-        {details.map(detail => <li>
+        {details.map(detail => <li key={detail.key}>
           <p><span>{detail.key}</span>{detail.value}</p>
         </li>)}
       </ul>
