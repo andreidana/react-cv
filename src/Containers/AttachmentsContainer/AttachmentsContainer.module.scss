@@ -1,3 +1,11 @@
-.list-style-none {
-  list-style: none;
+.AttachmentsContainerStyle {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 25px !important;
+
+  ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+  }
 }
+
