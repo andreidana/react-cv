@@ -1,12 +1,16 @@
 import React from 'react';
+import moment from 'moment';
 
 import { PersonalInfo } from './PersonalData.module.scss';
 
 const PersonalData = () => {
+  const birthDate = moment('1987-06-30');
+  const hireDate = moment('2011-03-02');
+  const currentDate = moment();
   const details = [{key: 'NAME', value: 'Andrei Danã'},
-  {key: 'AGE', value: '32'}, // TODO calculate automatically based on birth date
+  {key: 'AGE', value: currentDate.diff(birthDate, 'years')}, // TODO calculate automatically based on birth date
   {key: 'LOCATION', value: 'Bucharest, Romania'},
-  {key: 'EXPERIENCE', value: '9 years'}, // TODO calculate automatically based on first hire date
+  {key: 'EXPERIENCE', value: `${currentDate.diff(hireDate, 'years')} years`}, // TODO calculate automatically based on first hire date
   {key: 'DEGREE', value: 'Master'},
   {key: 'CAREER LEVEL', value: 'Senior-Level'},
   {key: 'PHONE', value: '(+40) 727-776494'},
