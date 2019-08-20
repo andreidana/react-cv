@@ -1,10 +1,14 @@
 import React from 'react';
 
+import StringTitle from '../StringTitle/StringTitle';
+
 const Certifications = () => {
+  const title = 'CERTIFICATIONS';
+
   return (
-    <div>
-      Certifications works!
-    </div>
+    <>
+      <StringTitle title = {title}/>
+    </>
   );
 };
 

@@ -1,10 +1,9 @@
 import React from 'react';
 
 import { StringTitleStyle } from './StringTitle.module.scss';
-import Heading from '../Heading/Heading';
 
 const StringTitle = (props) => (
-    <Heading style = { StringTitleStyle } text = { props.title }/>
+    <h4 className = { StringTitleStyle }>{ props.title }</h4>
   )
 
 export default StringTitle;

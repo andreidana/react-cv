@@ -1,10 +1,14 @@
 import React from 'react';
 
+import StringTitle from '../StringTitle/StringTitle';
+
 const Contact = () => {
+  const title = 'CONTACT';
+
   return (
-    <div>
-      Contact works!
-    </div>
+    <>
+      <StringTitle title = {title}/>
+    </>
   );
 };
 

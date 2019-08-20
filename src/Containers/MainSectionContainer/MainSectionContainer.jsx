@@ -4,15 +4,13 @@ import ProfessionalDetailsContainer from '../ProfessionalDetailsContainer/Profes
 import DetailsContainer from '../DetailsContainer/DetailsContainer';
 import Title from '../../Components/Title/Title';
 
-import { MainSection, TitleSection } from './MainSectionContainer.module.scss';
-
 const MainSectionContainer = () => {
   const headingText = 'RESUME';
 
   return (
-    <div className = {`container ${MainSection}`}>
+    <div className = 'container'>
       <div className = 'row'>
-        <div className = {`col-md-12 ${TitleSection}`}>
+        <div className = 'col-md-12'>
           <Title text = { headingText }/>
         </div>
         <div className = 'col-md-4'>
