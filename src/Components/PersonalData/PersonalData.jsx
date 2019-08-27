@@ -8,9 +8,9 @@ const PersonalData = () => {
   const hireDate = moment('2011-03-02');
   const currentDate = moment();
   const details = [{key: 'NAME', value: 'Andrei Danã'},
-  {key: 'AGE', value: currentDate.diff(birthDate, 'years')}, // TODO calculate automatically based on birth date
+  {key: 'AGE', value: currentDate.diff(birthDate, 'years')},
   {key: 'LOCATION', value: 'Bucharest, Romania'},
-  {key: 'EXPERIENCE', value: `${currentDate.diff(hireDate, 'years')} years`}, // TODO calculate automatically based on first hire date
+  {key: 'EXPERIENCE', value: `${currentDate.diff(hireDate, 'years')} years`},
   {key: 'DEGREE', value: 'Master'},
   {key: 'CAREER LEVEL', value: 'Senior-Level'},
   {key: 'PHONE', value: '(+40) 727-776494'},
