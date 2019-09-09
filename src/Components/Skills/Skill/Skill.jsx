@@ -11,7 +11,7 @@ const Skill = (props) => {
         {props.name}
       </div>
       <div className='col-sm-8'>
-        <ProgressBar className='mt-2' striped variant='info' now={props.level} />
+        <ProgressBar className='mt-2' now={props.level} />
         <Collapse in = {open}>
           <div id='example-collapse-text'>{props.description}</div>
         </Collapse>
