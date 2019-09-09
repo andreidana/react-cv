@@ -9,14 +9,12 @@ const AttachmentsContainer = () => {
   const wordTitle = 'Curriculum Vitae.docx';
 
   return (
-    <>
-      <div className = { AttachmentsContainerStyle }>
-        <ul>  
-          <Attachment image = {pdf} title = {pdfTitle}/>
-          <Attachment image = {word} title = {wordTitle}/>
-        </ul>
-      </div>
-    </>
+    <div className = { AttachmentsContainerStyle }>
+      <ul>  
+        <Attachment image = {pdf} title = {pdfTitle}/>
+        <Attachment image = {word} title = {wordTitle}/>
+      </ul>
+    </div>
   );
 };
 
