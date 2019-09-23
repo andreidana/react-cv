@@ -1,7 +1,7 @@
 import React from 'react';
-import { ProfilePictureStyle } from './ProfilePicture.module.scss';
 import ProfileImage from '../../Assets/profile.png';
+import Image from '../Image/Image';
 
-const ProfilePicture = () => <img src = { ProfileImage } alt = "Profile" className = { ProfilePictureStyle }></img>
+const ProfilePicture = () => <Image path = {ProfileImage}></Image>
 
 export default ProfilePicture;
