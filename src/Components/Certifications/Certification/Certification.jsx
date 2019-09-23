@@ -2,19 +2,17 @@ import React from 'react';
 import pdf from '../../../Assets/pdf-icon.jpg';
 import Attachment from '../../Attachment/Attachment';
 
-const Certification = () => {
-  const certificationTitle = 'certification.pdf';
-
+const Certification = props => {
   return (
     <div>
       <div className='row'>
-        <div className='col-md-2'>Logo</div>
-        <div className='col-md-8'>Name</div>
-        <div className='col-md-2'>Date achieved</div>
+        <div className='col-md-2'>{props.logo}</div>
+        <div className='col-md-8'>{props.name}</div>
+        <div className='col-md-2'>{props.dateAchieved}</div>
       </div>
-      <div className='row'><p>Emmitent</p></div>
-      <div className='row'><p>Description</p></div>
-      <div className='row'><Attachment  image = {pdf} title = {certificationTitle}/></div>
+      <div className='row'><p>{props.emitent}</p></div>
+      <div className='row'><p>{props.description}</p></div>
+      <div className='row'><Attachment  image = {pdf} title = {props.name}/></div>
     </div>
   );
 };
