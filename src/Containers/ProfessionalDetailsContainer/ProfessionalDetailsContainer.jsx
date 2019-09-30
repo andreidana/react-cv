@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ProfessionalDetailContainerStyle } from './ProfessionalDetailsContainer.module.scss';
+import styles from './ProfessionalDetailsContainer.module.scss';
 import StringTitle from '../../Components/StringTitle/StringTitle';
 import ProfilePicture from '../../Components/ProfilePicture/ProfilePicture';
 import PersonalData from '../../Components/PersonalData/PersonalData';
@@ -11,7 +11,7 @@ const ProfessionalDetailsContainer = () => {
   const attachmentsTitle = 'ATTACHMENTS';
 
   return (
-    <div className = { ProfessionalDetailContainerStyle }>
+    <div className = { styles.container }>
       <StringTitle title = { professionalDetailsTitle } />
       <ProfilePicture />
       <PersonalData />
