@@ -8,16 +8,14 @@ import Skills from '../../Components/Skills/Skills';
 import Certifications from '../../Components/Certifications/Certifications';
 import Contact from '../../Components/Contact/Contact';
 
-const DetailsContainer = () => {
-  return (
-    <div className = { DetailsContainerStyle }>
-      <Route path="/" exact component={AboutMe}/>
-      <Route path="/professional-experience" exact component={ProfessionalExperience}/>
-      <Route path="/skills" exact component={Skills}/>
-      <Route path="/certifications" exact component={Certifications}/>
-      <Route path="/contact" exact component={Contact}/>
-    </div>
-  );
-};
+const DetailsContainer = () => (
+  <div className={DetailsContainerStyle}>
+    <Route path="/" exact component={AboutMe} />
+    <Route path="/professional-experience" exact component={ProfessionalExperience} />
+    <Route path="/skills" exact component={Skills} />
+    <Route path="/certifications" exact component={Certifications} />
+    <Route path="/contact" exact component={Contact} />
+  </div>
+);
 
 export default DetailsContainer;

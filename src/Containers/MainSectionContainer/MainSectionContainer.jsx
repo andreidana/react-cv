@@ -8,20 +8,20 @@ const MainSectionContainer = () => {
   const headingText = 'RESUME';
 
   return (
-    <div className = 'container'>
-      <div className = 'row'>
-        <div className = 'col-md-12'>
-          <Title text = { headingText }/>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <Title text={headingText} />
         </div>
-        <div className = 'col-md-4'>
-          <ProfessionalDetailsContainer/>
+        <div className="col-md-4">
+          <ProfessionalDetailsContainer />
         </div>
-        <div className = 'col-md-8'>
-          <DetailsContainer/>
+        <div className="col-md-8">
+          <DetailsContainer />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default MainSectionContainer;
