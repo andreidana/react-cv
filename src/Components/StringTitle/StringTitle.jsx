@@ -1,9 +1,13 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { StringTitleStyle } from './StringTitle.module.scss';
 
-const StringTitle = (props) => (
-    <h4 className = { StringTitleStyle }>{ props.title }</h4>
-  )
+const StringTitle = ({ title }) => (
+  <h4 className={StringTitleStyle}>{ title }</h4>
+);
+
+StringTitle.propTypes = {
+  title: PropTypes.string.isRequired,
+};
 
 export default StringTitle;
