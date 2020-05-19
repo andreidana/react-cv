@@ -1,11 +1,9 @@
 import React from 'react';
 
-const MapsIntegration = () => {
-    return (
-        <div>
+const MapsIntegration = () => (
+  <div>
             Google Maps Integration will go here;
-        </div>
-    );
-};
+  </div>
+);
 
 export default MapsIntegration;

@@ -12,15 +12,15 @@ const Contact = () => {
 
   return (
     <>
-      <StringTitle title = {title}/>
-      <div className='row'>
-        <ContactSection icon={faMobile} text='+40727776494'></ContactSection>
-        <ContactSection icon={faMapMarker} text='Str. Fagetului, Sect. 4, Bucharest, Romania'></ContactSection>
-        <ContactSection icon={faEnvelopeOpen} text='andrei.dana87@gmail.com'></ContactSection>
+      <StringTitle title={title} />
+      <div className="row">
+        <ContactSection icon={faMobile} text="+40727776494" />
+        <ContactSection icon={faMapMarker} text="Str. Fagetului, Sect. 4, Bucharest, Romania" />
+        <ContactSection icon={faEnvelopeOpen} text="andrei.dana87@gmail.com" />
       </div>
-      <MapsIntegration></MapsIntegration>
-      <StringTitle title = {mailTitle}/>
-      <MailSection></MailSection>
+      <MapsIntegration />
+      <StringTitle title={mailTitle} />
+      <MailSection />
     </>
   );
 };
