@@ -6,7 +6,6 @@ import AboutMe from '../../Components/AboutMe/AboutMe';
 import ProfessionalExperience from '../../Components/ProfessionalExperience/ProfessionalExperience';
 import Skills from '../../Components/Skills/Skills';
 import Certifications from '../../Components/Certifications/Certifications';
-import Contact from '../../Components/Contact/Contact';
 
 const DetailsContainer = () => (
   <div className={DetailsContainerStyle}>
@@ -14,7 +13,6 @@ const DetailsContainer = () => (
     <Route path="/professional-experience" exact component={ProfessionalExperience} />
     <Route path="/skills" exact component={Skills} />
     <Route path="/certifications" exact component={Certifications} />
-    <Route path="/contact" exact component={Contact} />
   </div>
 );
 
