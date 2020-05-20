@@ -9,9 +9,9 @@ const ProfessionalExperience = () => {
 
   return (
     <>
-      <StringTitle title = {title}/>
-      <Job/>
-      <StringTitle title = {academicTitle}/>
+      <StringTitle title={title} />
+      <Job />
+      <StringTitle title={academicTitle} />
     </>
   );
 };

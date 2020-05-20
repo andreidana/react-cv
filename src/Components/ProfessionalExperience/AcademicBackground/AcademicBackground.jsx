@@ -1,11 +1,7 @@
 import React from 'react';
 
-const AcademicBackground = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
+const AcademicBackground = () => (
+  <div />
+);
 
 export default AcademicBackground;
