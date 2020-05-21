@@ -1,17 +1,16 @@
 import React from 'react';
 
-import StringTitle from '../StringTitle/StringTitle';
-import Job from './Job/Job';
+import StringTitle from '../../StringTitle/StringTitle';
+import Jobs from '../Job/Job';
+import experience from '../../../StaticData/experience';
 
 const ProfessionalExperience = () => {
   const title = 'PROFESSIONAL EXPERIENCE';
-  const academicTitle = 'ACADEMIC BACKGROUND';
 
   return (
     <>
       <StringTitle title={title} />
-      <Job />
-      <StringTitle title={academicTitle} />
+      <Jobs experienceList={experience} />
     </>
   );
 };
