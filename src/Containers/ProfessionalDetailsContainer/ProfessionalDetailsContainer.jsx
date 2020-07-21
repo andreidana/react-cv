@@ -11,11 +11,11 @@ const ProfessionalDetailsContainer = () => {
   const attachmentsTitle = 'ATTACHMENTS';
 
   return (
-    <div className = { styles.container }>
-      <StringTitle title = { professionalDetailsTitle } />
+    <div className={styles.container}>
+      <StringTitle title={professionalDetailsTitle} />
       <ProfilePicture />
       <PersonalData />
-      <StringTitle title = { attachmentsTitle } />
+      <StringTitle title={attachmentsTitle} />
       <AttachmentsContainer />
     </div>
   );

@@ -11,9 +11,9 @@ const Teamleader = () => {
 
   return (
     <>
-      <div className = { TeamLeaderStyle }>
+      <div className={TeamLeaderStyle}>
         <p>{teamLeaderDescription}</p>
-      </div> 
+      </div>
     </>
   );
 };

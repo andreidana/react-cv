@@ -11,7 +11,9 @@ const Certifications = () => {
     <>
       <StringTitle title={title} />
       {
-        certificationsList.map(certification => <Certification key={certification.idx} {...certification} />)
+        certificationsList.map(
+          certification => <Certification key={certification.idx} {...certification} />
+        )
       }
     </>
   );

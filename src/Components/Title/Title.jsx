@@ -1,9 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { TitleStyle } from './Title.module.scss';
 
-const Title = (props) => (
-    <h4 className = { TitleStyle }>{ props.text }</h4>
-  )
+const Title = ({ text }) => (
+  <h4 className={TitleStyle}>{ text }</h4>
+);
+
+Title.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Title;

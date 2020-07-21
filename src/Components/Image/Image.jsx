@@ -1,10 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Image.module.scss';
 
-const Image = props => <img className = {styles.size} src = { props.path } alt = "" height = { props.height }></img>
+const Image = ({ path, height }) => <img className={styles.size} src={path} alt="" height={height} />;
 
 Image.defaultProps = {
-  height: 'auto'
-}
+  height: 'auto',
+};
+
+Image.propTypes = {
+  path: PropTypes.string.isRequired,
+  height: PropTypes.number,
+};
 
 export default Image;

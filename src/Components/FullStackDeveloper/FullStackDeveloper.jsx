@@ -10,9 +10,9 @@ const FullStackDeveloper = () => {
 
   return (
     <>
-      <div className = { FullStackDeveloperStyle }>
+      <div className={FullStackDeveloperStyle}>
         <p>{description}</p>
-      </div> 
+      </div>
     </>
   );
 };
