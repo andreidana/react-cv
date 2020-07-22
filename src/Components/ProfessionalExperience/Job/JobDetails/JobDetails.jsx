@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { CompanyLogo } from './JobDetails.module.scss';
+import Image from '../../../Image/Image';
 
 const JobDetails = ({
   logo, jobTitle, company, location,
 }) => (
   <>
-    <div className={CompanyLogo}>{logo}</div>
+    <Image path={logo} height={50} />
     <h6>{jobTitle}</h6>
     <div>{company}</div>
     <div>{location}</div>
