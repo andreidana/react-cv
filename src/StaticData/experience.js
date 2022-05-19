@@ -4,6 +4,14 @@ import siLogo from '../Assets/signal-iduna-logo.png';
 import krukLogo from '../Assets/kruk-logo.jpg';
 
 const experience = [{
+  idx: 6,
+  workingYears: '2021',
+  logo: ftosLogo,
+  jobTitle: 'Technical Lead',
+  company: 'FintechOS',
+  location: 'Bucuresti',
+  description: 'Technical Lead JD - Take from LinkedIn',
+}, {
   idx: 5,
   workingYears: '2019',
   logo: ftosLogo,
@@ -35,8 +43,7 @@ const experience = [{
   company: 'Signal Iduna',
   location: 'Bucuresti',
   description: 'Software Developer JD - take from LinkedIn',
-},
-{
+}, {
   idx: 1,
   workingYears: '2011-2013',
   logo: krukLogo,
