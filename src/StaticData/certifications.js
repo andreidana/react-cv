@@ -1,4 +1,5 @@
 import psm from '../Assets/Certifications/psmi.png';
+import az900 from '../Assets/Certifications/az-900.png';
 
 const certificationsList = [
   {
@@ -22,6 +23,13 @@ const certificationsList = [
     dateAchieved: '2018-09-10',
     emitent: 'Scrum.org',
     description: 'The first level of certification for Scrum Masters',
+  }, {
+    idx: 4,
+    logo: az900,
+    name: 'AZ-900: Azure Foundation',
+    dateAchieved: '2022-05-16',
+    emitent: 'Microsoft',
+    description: 'Foundation certification for Microsoft Azure',
   },
 ];
 
