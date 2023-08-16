@@ -1,8 +1,9 @@
-import styles from './ProfessionalDetailsContainer.module.scss';
 import StringTitle from '../components/StringTitle/StringTitle';
 import ProfilePicture from '../components/ProfilePicture/ProfilePicture';
 import PersonalData from '../components/PersonalData/PersonalData';
 import AttachmentsContainer from './attachments-container';
+
+import styles from './ProfessionalDetailsContainer.module.scss';
 
 const ProfessionalDetailsContainer = () => {
   const professionalDetailsTitle = 'PROFESSIONAL DETAILS';

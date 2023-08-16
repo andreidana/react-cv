@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ProfessionalDetailsContainer from './professional-details-container';
 import DetailsContainer from './details-container';
 import Title from '../components/Title/Title';
