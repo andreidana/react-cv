@@ -1,6 +1,6 @@
-import StringTitle from '../components/StringTitle/StringTitle';
-import ProfilePicture from '../components/ProfilePicture/ProfilePicture';
-import PersonalData from '../components/PersonalData/PersonalData';
+import StringTitle from '../components/string-title';
+import ProfilePicture from '../components/profile-picture';
+import PersonalData from '../components/personal-data';
 import AttachmentsContainer from './attachments-container';
 
 import styles from './ProfessionalDetailsContainer.module.scss';

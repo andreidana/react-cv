@@ -1,6 +1,6 @@
 import ProfessionalDetailsContainer from './professional-details-container';
 import DetailsContainer from './details-container';
-import Title from '../components/Title/Title';
+import Title from '../components/title';
 
 const MainSectionContainer = () => {
   const headingText = 'RESUME';

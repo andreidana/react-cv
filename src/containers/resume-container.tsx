@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar/Navbar';
+import Navbar from '../components/Navbar';
 import MainSectionContainer from './main-section-container';
 
 const ResumeComponent = () => (

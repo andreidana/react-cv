@@ -1,6 +1,6 @@
 import pdf from '../../Assets/pdf-icon.jpg';
 import word from '../../Assets/word-icon.jpg';
-import Attachment from '../components/Attachment/Attachment';
+import Attachment from '../components/Attachment';
 
 import styles from './AttachmentsContainer.module.scss';
 

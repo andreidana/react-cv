@@ -1,9 +1,9 @@
 import { Route } from 'react-router-dom';
 
-import AboutMe from '../components/AboutMe/AboutMe';
-import Skills from '../components/Skills/Skills';
-import Certifications from '../components/Certifications/Certifications';
-import Experience from '../components/ProfessionalExperience/Experience';
+import AboutMe from '../components/about-me';
+import Skills from '../components/Skills';
+import Certifications from '../components/Certifications';
+import Experience from '../components/Experience';
 
 import styles from './DetailsContainer.module.scss';
 
