@@ -1,10 +1,10 @@
 import React from 'react';
 
 import styles from './ProfessionalDetailsContainer.module.scss';
-import StringTitle from '../../Components/StringTitle/StringTitle';
-import ProfilePicture from '../../Components/ProfilePicture/ProfilePicture';
-import PersonalData from '../../Components/PersonalData/PersonalData';
-import AttachmentsContainer from '../AttachmentsContainer/AttachmentsContainer';
+import StringTitle from '../components/StringTitle/StringTitle';
+import ProfilePicture from '../components/ProfilePicture/ProfilePicture';
+import PersonalData from '../components/PersonalData/PersonalData';
+import AttachmentsContainer from './attachments-container';
 
 const ProfessionalDetailsContainer = () => {
   const professionalDetailsTitle = 'PROFESSIONAL DETAILS';

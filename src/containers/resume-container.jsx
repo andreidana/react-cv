@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Navbar from '../../Components/Navbar/Navbar';
-import MainSectionContainer from '../MainSectionContainer/MainSectionContainer';
+import Navbar from '../components/Navbar/Navbar';
+import MainSectionContainer from './main-section-container';
 
 const ResumeComponent = () => (
   <>

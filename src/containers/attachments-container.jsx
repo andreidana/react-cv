@@ -1,7 +1,7 @@
 import React from 'react';
 import pdf from '../../Assets/pdf-icon.jpg';
 import word from '../../Assets/word-icon.jpg';
-import Attachment from '../../Components/Attachment/Attachment';
+import Attachment from '../components/Attachment/Attachment';
 import { AttachmentsContainerStyle } from './AttachmentsContainer.module.scss';
 
 const AttachmentsContainer = () => {

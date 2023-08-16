@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ProfessionalDetailsContainer from '../ProfessionalDetailsContainer/ProfessionalDetailsContainer';
-import DetailsContainer from '../DetailsContainer/DetailsContainer';
-import Title from '../../Components/Title/Title';
+import ProfessionalDetailsContainer from './professional-details-container';
+import DetailsContainer from './details-container';
+import Title from '../components/Title/Title';
 
 const MainSectionContainer = () => {
   const headingText = 'RESUME';

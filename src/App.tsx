@@ -1,5 +1,6 @@
-import './App.module.scss';
-import ResumeContainer from './Containers/ResumeContainer/ResumeContainer';
+import { BrowserRouter } from 'react-router-dom';
+import ResumeContainer from './containers/resume-container';
+import { Background } from 'App.scss';
 
 function App() {
   return (
