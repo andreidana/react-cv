@@ -1,5 +1,5 @@
-import psm from '../Assets/Certifications/psmi.png';
-import az900 from '../Assets/Certifications/az-900.png';
+import psm from '../assets/Certifications/psmi.png';
+import az900 from '../assets/Certifications/az-900.png';
 
 const certificationsList = [
   {

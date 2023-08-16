@@ -1,11 +1,11 @@
 import { Route } from 'react-router-dom';
 
 import AboutMe from '../components/about-me';
-import Skills from '../components/Skills';
-import Certifications from '../components/Certifications';
-import Experience from '../components/Experience';
+import Skills from '../components/skills';
+import Certifications from '../components/certifications';
+import Experience from '../components/experience';
 
-import styles from './DetailsContainer.module.scss';
+import styles from './details-container.module.scss';
 
 const DetailsContainer = () => (
   <div className={styles.DetailsContainerStyle}>

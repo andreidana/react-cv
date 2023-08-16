@@ -1,8 +1,8 @@
-import pdf from '../../Assets/pdf-icon.jpg';
-import word from '../../Assets/word-icon.jpg';
-import Attachment from '../components/Attachment';
+import pdf from '../assets/pdf-icon.jpg';
+import word from '../assets/word-icon.jpg';
+import Attachment from '../components/attachment';
 
-import styles from './AttachmentsContainer.module.scss';
+import styles from './attachments-container.module.scss';
 
 const AttachmentsContainer = () => {
   const pdfTitle = 'Curriculum Vitae.pdf';

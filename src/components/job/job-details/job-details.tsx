@@ -1,4 +1,4 @@
-import Image from '../../Image';
+import Image from '../../image';
 
 type JobDetailsProps = {
   logo: string;

@@ -1,7 +1,7 @@
-import ftosLogo from '../Assets/fintechos-logo.png';
-import vdfLogo from '../Assets/vodafone-logo.jpg';
-import siLogo from '../Assets/signal-iduna-logo.png';
-import krukLogo from '../Assets/kruk-logo.jpg';
+import ftosLogo from '../assets/fintechos-logo.png';
+import vdfLogo from '../assets/vodafone-logo.jpg';
+import siLogo from '../assets/signal-iduna-logo.png';
+import krukLogo from '../assets/kruk-logo.jpg';
 
 const experience = [{
   idx: 6,

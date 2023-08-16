@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
-import styles from './Attachment.module.scss';
+import styles from './attachment.module.scss';
 
 type AttachmentProps = {
   image: string;

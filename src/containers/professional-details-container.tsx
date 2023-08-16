@@ -3,7 +3,7 @@ import ProfilePicture from '../components/profile-picture';
 import PersonalData from '../components/personal-data';
 import AttachmentsContainer from './attachments-container';
 
-import styles from './ProfessionalDetailsContainer.module.scss';
+import styles from './professional-details-container.module.scss';
 
 const ProfessionalDetailsContainer = () => {
   const professionalDetailsTitle = 'PROFESSIONAL DETAILS';

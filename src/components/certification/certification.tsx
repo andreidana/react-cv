@@ -1,6 +1,6 @@
-import pdf from '../../../Assets/pdf-icon.jpg';
-import Attachment from '../Attachment';
-import Image from '../Image';
+import pdf from '../../assets/pdf-icon.jpg';
+import Attachment from '../attachment';
+import Image from '../image';
 
 import styles from './certification.module.scss';
 

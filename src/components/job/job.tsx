@@ -2,7 +2,7 @@ import Paragraph from '../../atoms/paragraph';
 import WorkedYears from '../../atoms/worked-years';
 import JobDetails from './job-details/job-details';
 
-import styles from './Job.module.scss';
+import styles from './job.module.scss';
 
 type JobsProps = {
   experienceList: Experience[];
