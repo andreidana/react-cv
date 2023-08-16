@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Button from 'react-bootstrap/Button';
-import Input from '../../atoms/Input/Input';
-import Textarea from '../../atoms/Textarea/Textarea';
+import Input from '../../atoms/input';
+import Textarea from '../../atoms/textarea';
 
 const MailSection = () => {
   const textAreaRows = 5;

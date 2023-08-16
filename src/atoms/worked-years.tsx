@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import styles from './WorkedYears.module.scss';
+import styles from './worked-years.module.scss';
 
 type WorkedYearsProps = {
   years: number;

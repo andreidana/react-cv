@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { JobStyle } from './Job.module.scss';
-import Paragraph from '../../../atoms/Paragraph/Paragraph';
-import WorkedYears from '../../../atoms/WorkedYears/WorkedYears';
+import Paragraph from '../../../atoms/paragraph';
+import WorkedYears from '../../../atoms/worked-years';
 import JobDetails from './JobDetails/JobDetails';
 
 
