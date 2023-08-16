@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './ProfessionalDetailsContainer.module.scss';
 import StringTitle from '../components/StringTitle/StringTitle';
 import ProfilePicture from '../components/ProfilePicture/ProfilePicture';

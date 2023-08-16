@@ -1,11 +1,11 @@
 import { BrowserRouter } from 'react-router-dom';
 import ResumeContainer from './containers/resume-container';
-import { Background } from 'App.scss';
+import styles from './App.module.scss';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className={Background}>
+      <div className={styles.background}>
         <ResumeContainer/>
       </div>
     </BrowserRouter>
