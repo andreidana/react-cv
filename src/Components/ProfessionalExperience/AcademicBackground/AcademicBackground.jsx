@@ -2,7 +2,7 @@ import React from 'react';
 
 import StringTitle from '../../StringTitle/StringTitle';
 import Jobs from '../Job/Job';
-import education from '../../../StaticData/education';
+import education from '../../../../_old/src/StaticData/education';
 
 const AcademicBackground = () => {
   const title = 'ACADEMIC BACKGROUND';

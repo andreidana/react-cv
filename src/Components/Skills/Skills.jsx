@@ -2,7 +2,7 @@ import React from 'react';
 
 import StringTitle from '../StringTitle/StringTitle';
 import Skill from './Skill/Skill';
-import skillsList from '../../StaticData/skills';
+import skillsList from '../../../_old/src/StaticData/skills';
 
 const Skills = () => {
   const title = 'SKILLS';

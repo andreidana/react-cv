@@ -1,5 +1,5 @@
 import React from 'react';
-import positions from '../../StaticData/positions';
+import positions from '../../../_old/src/StaticData/positions';
 
 import { TeamLeaderStyle } from './TeamLeader.module.scss';
 

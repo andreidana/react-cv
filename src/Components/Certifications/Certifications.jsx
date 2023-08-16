@@ -2,7 +2,7 @@ import React from 'react';
 
 import StringTitle from '../StringTitle/StringTitle';
 import Certification from './Certification/Certification';
-import certificationsList from '../../StaticData/certifications';
+import certificationsList from '../../../_old/src/StaticData/certifications';
 
 const Certifications = () => {
   const title = 'CERTIFICATIONS';
